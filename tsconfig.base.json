@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "jsx": "preserve",
+    "outDir": "dist"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.json",
+    "node_modules/@types/u-next/**/*.d.ts",
+  ],
+  "exclude": [
+    "dist",
+    "stories",
+    ".storybook"
+  ]
+}
